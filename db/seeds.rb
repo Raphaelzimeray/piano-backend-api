@@ -5,3 +5,15 @@
 #
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
+
+#Piano.destroy!
+
+piano_1 = Piano.create(
+  name: "Steinway",
+  price: 300000
+)
+
+piano_2 = Piano.create(
+  name: "Fazioli",
+  price: 200000
+)
