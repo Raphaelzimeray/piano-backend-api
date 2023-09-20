@@ -10,10 +10,29 @@
 
 piano_1 = Piano.create(
   name: "Steinway",
-  price: 300000
+  price: 300000,
+  brand: "B",
+  color: "black",
+  photos: "https://eu.steinway.com/fileadmin/user_upload/Fluegel_B_Black_03.jpg"
 )
+
+# file = URI.open('https://eu.steinway.com/fileadmin/user_upload/Fluegel_B_Black_03.jpg')
+# piano_1.photos(io: file, filename: 'piano1.jpg', content_type: 'piano1/jpg')
+# piano_1.save!
+
+puts"#{piano_1.name} has been created!"
+
+
 
 piano_2 = Piano.create(
   name: "Fazioli",
-  price: 200000
+  price: 200000,
+  brand: "230",
+  color: "White",
+  photos: "https://www.fazioli.com/wp-content/uploads/2018/02/f308-11-zoom.jpg"
 )
+# file = URI.open('https://www.fazioli.com/wp-content/uploads/2018/02/f308-11-zoom.jpg')
+# piano_2.photos(io: file, filename: 'piano2.jpg', content_type: 'piano2/jpg')
+# piano_2.save!
+
+puts"#{piano_2.name} has been created!"
