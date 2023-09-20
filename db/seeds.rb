@@ -13,7 +13,8 @@ piano_1 = Piano.create(
   price: 300000,
   brand: "B",
   color: "black",
-  photos: "https://eu.steinway.com/fileadmin/user_upload/Fluegel_B_Black_03.jpg"
+  photos: "https://eu.steinway.com/fileadmin/user_upload/Fluegel_B_Black_03.jpg",
+  description: "Le piano le plus complet du marché, utilisé par des professionnels en studio et concerts"
 )
 
 # file = URI.open('https://eu.steinway.com/fileadmin/user_upload/Fluegel_B_Black_03.jpg')
@@ -29,7 +30,8 @@ piano_2 = Piano.create(
   price: 200000,
   brand: "230",
   color: "White",
-  photos: "https://www.fazioli.com/wp-content/uploads/2018/02/f308-11-zoom.jpg"
+  photos: "https://www.fazioli.com/wp-content/uploads/2018/02/f308-11-zoom.jpg",
+  description: "Un son unique et précis pour vos concerts, répétitions et enregistrements"
 )
 # file = URI.open('https://www.fazioli.com/wp-content/uploads/2018/02/f308-11-zoom.jpg')
 # piano_2.photos(io: file, filename: 'piano2.jpg', content_type: 'piano2/jpg')
