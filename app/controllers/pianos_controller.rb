@@ -46,6 +46,6 @@ class PianosController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def piano_params
-      params.require(:piano).permit(:price, :name)
+      params.require(:piano).permit(:price, :name, :photos, :color, :brand, :description)
     end
 end
