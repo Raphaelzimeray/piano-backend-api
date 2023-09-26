@@ -76,7 +76,7 @@ piano_5 = Piano.create(
 puts "#{piano_5.name} has been created !"
 
 piano_6 = Piano.create(
-  name: "K208",
+  name: "K208 Pegasus",
   price: 210000,
   brand: "Schimmel",
   color: "Rouge",
@@ -111,5 +111,3 @@ piano_8 = Piano.create(
 )
 
 puts "#{piano_8.name} has been created !"
-
-
