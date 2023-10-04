@@ -45,7 +45,7 @@ piano_3 = Piano.create(
   price: 570,
   brand: "Rolland",
   color: "Blanc",
-  photos: "https://royez-musik.com/media/produit/fp-10-bk-20210218153738.jpg",
+  photos: "https://haloa-music.fr/1862-large_default/fp10-bk.jpg",
   description: "Le meilleur rapport qualité prix de la marque Rolland en piano numérique portable, idéal pour progresser grâce à ses touches de bonne consistance"
 )
 
@@ -111,3 +111,140 @@ piano_8 = Piano.create(
 )
 
 puts "#{piano_8.name} has been created !"
+
+
+piano_9 = Piano.create(
+  name: "290 Impérial",
+  price: 196000,
+  brand: "Bosendorfer",
+  color: "Noir",
+  photos: "https://www.boesendorfer.com/_Resources/Persistent/f27660a546f11b62cf1611783d34155f7fea3b2c/concert-grand-290-Imperial-top.jpg",
+  description: "Le summum de la perfection chez un fabricant qui au fil des décénnies est devenu une institution reconnue de tous les pianistes"
+)
+
+puts "#{piano_9.name} has been created !"
+
+
+# piano_10 = Piano.create(
+#   name: "",
+#   price: ,
+#   brand: "",
+#   color: "",
+#   photos: "",
+#   description: ""
+# )
+
+# puts "#{piano_10.name} has been created!"
+
+
+# piano_11 = Piano.create(
+#   name: "",
+#   price: ,
+#   brand: "",
+#   color: "",
+#   photos: "",
+#   description: ""
+# )
+
+# puts "#{piano_11.name} has been created!"
+
+
+# piano_12 = Piano.create(
+#   name: "",
+#   price: ,
+#   brand: "",
+#   color: "",
+#   photos: "",
+#   description: ""
+# )
+
+# puts "#{piano_12.name} has been created!"
+
+
+# piano_13 = Piano.create(
+#   name: "",
+#   price: ,
+#   brand: "",
+#   color: "",
+#   photos: "",
+#   description: ""
+# )
+
+
+# puts "#{piano_13.name} has been created!"
+
+
+# piano_14 = Piano.create(
+#   name: "",
+#   price: ,
+#   brand: "",
+#   color: "",
+#   photos: "",
+#   description: ""
+# )
+
+
+# puts "#{piano_14.name} has been created!"
+
+
+# piano_15 = Piano.create(
+#   name: "",
+#   price: ,
+#   brand: "",
+#   color: "",
+#   photos: "",
+#   description: ""
+# )
+
+
+# puts "#{piano_15.name} has been created!"
+
+
+# piano_16 = Piano.create(
+#   name: "",
+#   price: ,
+#   brand: "",
+#   color: "",
+#   photos: "",
+#   description: ""
+# )
+
+
+# puts "#{piano_16.name} has been created!"
+
+
+
+# piano_17 = Piano.create(
+#   name: "",
+#   price: ,
+#   brand: "",
+#   color: "",
+#   photos: "",
+#   description: ""
+# )
+
+# puts "#{piano_17.name} has been created!"
+
+
+# piano_18 = Piano.create(
+#   name: "",
+#   price: ,
+#   brand: "",
+#   color: "",
+#   photos: "",
+#   description: ""
+# )
+
+
+# puts "#{piano_18.name} has been created!"
+
+# piano_19 = Piano.create(
+#   name: "",
+#   price: ,
+#   brand: "",
+#   color: "",
+#   photos: "",
+#   description: ""
+# )
+
+# puts "#{piano_19.name} has been created!"
